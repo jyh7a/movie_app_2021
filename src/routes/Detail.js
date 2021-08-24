@@ -14,6 +14,8 @@ class Detail extends Component {
   render() {
     if (!this.props.location.state) return null;
 
+    window.scrollTo(0, 0);
+
     const {
       location: {
         state: { title, year, summary, poster, genres },
