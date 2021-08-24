@@ -1,0 +1,20 @@
+.about__container{
+  box-shadow: 8px 4px 1px #dadada;
+  padding: 20px;
+  border-radius: 5px;
+  background-color: #fff;
+  margin: 0 auto;
+  margin-top: 100px;
+  width: 100%;
+  max-width: 400px;
+  font-weight: 300;
+}
+
+.about__container span:first-child{
+  font-size: 20px;
+}
+
+.about__container span:last-child{
+  display: block;
+  margin-top: 10px;
+}
